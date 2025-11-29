@@ -1,0 +1,31 @@
+# file for config the bot 
+bot_config:
+  # config for notifing new music by Discord
+  discord:
+    # the notif by discord actif or not ?
+    # true  = actif
+    # false = not actif
+    actif?: false
+    # if is actif config :
+    #
+    # for create and get token Bot (list of link for tuto)
+    # https://www.writebots.com/discord-bot-token/
+    # https://www.getdroidtips.com/discord-bot-token/
+    # https://www.getdroidtips.com/discord-bot-token/
+    token: ""
+  # config for notifing new music by email
+  email:
+    # the notif by discord actif or not ?
+    # true  = actif
+    # false = not actif
+    actif?: false
+    # if is actif config :
+    #
+  # config for notifing new music by telegram
+  telegram:
+    # the notif by discord actif or not ?
+    # true  = actif
+    # false = not actif
+    actif?: true
+    # if is actif config :
+    #
