@@ -14,6 +14,9 @@ sig {
   params(url: String, libreWolf: String).returns(T::Boolean)
 }
 # function for verif if is a valid soundcloud url
+# @param url        the url of soudcloud artist
+# @param libreWolf  the librewolf executable path
+# @return           boolean
 def verifyingUrl_soundcloud?(url, libreWolf)
   regex = %r{\Ahttps://soundcloud\.com/[^/]+\z}
   
