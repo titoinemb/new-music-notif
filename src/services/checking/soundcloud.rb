@@ -1,6 +1,6 @@
 # import sorbet-runtime for add typage in ruby
 require 'sorbet-runtime'
-# import httparty & nokogiri for scraping soundcloud
+# import selenium-webdriver & nokogiri for scraping soundcloud
 require 'selenium-webdriver'
 require 'nokogiri'
 # import wating full charged page function
@@ -19,6 +19,7 @@ def soundcloud(id, libreWolf)
   # scraping information in artist page on soundcloud
   options = Selenium::WebDriver::Firefox::Options.new
   options.binary = libreWolf
+  # open the browser in invisible
 
   driver = Selenium::WebDriver.for :firefox, options: options
 
