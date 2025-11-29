@@ -21,6 +21,10 @@ bot_config:
     actif?: false
     # if is actif config :
     #
+    # protocol for send email
+    # protocol list : SMTP, POP3, IMAP
+    protocol: ""
+    #
   # config for notifing new music by telegram
   telegram:
     # the notif by discord actif or not ?
