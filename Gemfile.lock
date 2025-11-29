@@ -1,0 +1,29 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    base64 (0.3.0)
+    logger (1.7.0)
+    nokogiri (1.18.10-x86_64-linux-gnu)
+      racc (~> 1.4)
+    racc (1.8.1)
+    rexml (3.4.4)
+    rubyzip (3.2.2)
+    selenium-webdriver (4.38.0)
+      base64 (~> 0.2)
+      logger (~> 1.4)
+      rexml (~> 3.2, >= 3.2.5)
+      rubyzip (>= 1.2.2, < 4.0)
+      websocket (~> 1.0)
+    sorbet-runtime (0.6.12798)
+    websocket (1.2.11)
+
+PLATFORMS
+  x86_64-linux-gnu
+
+DEPENDENCIES
+  nokogiri (~> 1.18)
+  selenium-webdriver (~> 4.38)
+  sorbet-runtime (~> 0.6.12798)
+
+BUNDLED WITH
+   2.5.22

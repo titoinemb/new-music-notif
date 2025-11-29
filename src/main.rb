@@ -16,6 +16,7 @@ begin
 
   # verifing if minimum 1 method for notifing new music is activate
   if data.any? { |_, service| service["actif?"] }
+    # if minimum 1 mothod is activate :
     
   else
     puts "Error: All notification methods are disabled. Please activate at least one method"

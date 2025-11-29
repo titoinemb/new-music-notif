@@ -29,3 +29,9 @@ bot_config:
     actif?: true
     # if is actif config :
     #
+config_navigator:
+  # for must privacy for the scraping i dev the scraping with libreWolf navigator
+  # so for the module "selenium-webdriver" it's necessary to declare the executable path of librewolf
+  # so install librewolf (https://librewolf.net/)
+  # and geckodriver, it's a driver for connecte code to firefox or firefox based navigator
+  # https://github.com/mozilla/geckodriver/releases
