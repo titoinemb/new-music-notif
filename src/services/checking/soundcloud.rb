@@ -14,8 +14,10 @@ sig {
   params(id: String, libreWolf: String).returns(String)
 }
 # function for the last music in artist channel on soundcloud
-# @param the id of channel https://soundcloud.com/<the id of channel>
-def soundcloud(id, libreWolf)
+# @param id         the id of channel https://soundcloud.com/<the id of channel>
+# @param librewolf  the librewolf executable path
+# @return           the last name of albulm/single
+def checking_soundcloud(id, libreWolf)
   # scraping information in artist page on soundcloud
   options = Selenium::WebDriver::Firefox::Options.new
   options.binary = libreWolf
