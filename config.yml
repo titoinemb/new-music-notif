@@ -39,3 +39,6 @@ config_navigator:
   # so install librewolf (https://librewolf.net/)
   # and geckodriver, it's a driver for connecte code to firefox or firefox based navigator
   # https://github.com/mozilla/geckodriver/releases
+  #
+  # librewolf executable path
+  libreWolf_path: "/usr/bin/librewolf"
