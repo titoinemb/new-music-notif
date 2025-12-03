@@ -39,12 +39,14 @@ def verifyingUrl_youtube?(url, libreWolf)
     html = driver.page_source
     parsed_page = Nokogiri::HTML(html)
 
-    error = parsed_page.css("iframe[src='/error?src=404&ifr=1&error=']")
+    divs = parsed_page.css("div.yt-tab-shape__tab")
+
+    realeases = divs.any? { |div| div.text.include?('Releases') }
 
     # close the browser
     driver.quit
 
-    return error.empty?
+    return realeases
   else 
     return false
   end
