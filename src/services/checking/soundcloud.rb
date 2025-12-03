@@ -22,7 +22,8 @@ def checking_soundcloud(id, libreWolf)
   options = Selenium::WebDriver::Firefox::Options.new
   options.binary = libreWolf
   # open the browser in invisible
-
+  options.add_argument('--headless')
+  
   driver = Selenium::WebDriver.for :firefox, options: options
 
   url = "https://soundcloud.com/#{id}/tracks"
