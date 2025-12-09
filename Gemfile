@@ -9,3 +9,5 @@ gem "sorbet-runtime", "~> 0.6.12798"
 gem "nokogiri", "~> 1.18"
 
 gem "selenium-webdriver", "~> 4.38"
+
+gem "discordrb", "~> 3.7"

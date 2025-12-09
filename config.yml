@@ -5,14 +5,18 @@ bot_config:
     # the notif by discord actif or not ?
     # true  = actif
     # false = not actif
-    actif?: false
+    actif?: true
     # if is actif config :
     #
     # for create and get token Bot (list of link for tuto)
     # https://www.writebots.com/discord-bot-token/
     # https://www.getdroidtips.com/discord-bot-token/
     # https://www.getdroidtips.com/discord-bot-token/
+    # and invite in you private channel
     token: ""
+    # for send in you private message get your id
+    # https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID
+    id: ""
   # config for notifing new music by email
   email:
     # the notif by discord actif or not ?
@@ -24,13 +28,15 @@ bot_config:
     # protocol for send email
     # protocol list : SMTP, POP3, IMAP
     protocol: ""
+    # protocol config
+    protocol_config: ""
     #
   # config for notifing new music by telegram
   telegram:
     # the notif by discord actif or not ?
     # true  = actif
     # false = not actif
-    actif?: true
+    actif?: false
     # if is actif config :
     #
 config_navigator:

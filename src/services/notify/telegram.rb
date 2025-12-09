@@ -12,6 +12,6 @@ sig {
 # @param id     if of user or cannal telegram
 # @param token  the token of telegram bot
 # @return       void
-def notifing_telegram(id, token)
+def notify_telegram(id, token)
 
 end
